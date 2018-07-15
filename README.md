@@ -1,11 +1,11 @@
 # Ben Ziemann
-My portfolio!
-See it here: [zneb97.github.io](https://zneb97.github.io)  
+My portfolio! </br>
+[See it here!](https://zneb97.github.io)  
 
 ### TODO
 * Main page
 * About
-* Project
+* Projects
     * Waterlamp
     * 4 Axis Game Controller
     * Illusion Clock
