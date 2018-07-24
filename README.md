@@ -11,11 +11,11 @@ My portfolio! </br>
     * Illusion Clock
     * Tenacity Arm
     * Bungee Jumping Sim
+    * Laser Cut projects
 * Contact
 * 404 Error
 * Proper domain
 * The laundry list of things I don't even know exist yet that comes with building a website
-* Place awesome spinning gear graphic I've put on everything
 
 ### Thank you!
 Thanks to the following individuals and organizations
