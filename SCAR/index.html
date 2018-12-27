@@ -6,7 +6,7 @@ https://www.w3schools.com/w3css/tryw3css_templates_portfolio.htm#-->
 
 <!-- Setup -->
 <html>
-<title>TODO</title> <!-- Will have to override this per page -->
+<title>SCAR</title> <!-- Will have to override this per page -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -74,7 +74,7 @@ li{
     <!--<a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>TODO page banner-->
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
-    <h1><b>TODOPage name</b></h1>
+    <h1><b>SCAR</b></h1>
     <div class="w3-section w3-bottombar w3-padding-10"></div>
   </header>
   
@@ -87,7 +87,18 @@ li{
   	 <div class="w3-container w3-margin-bottom">
   		  <div class="w3-container w3-white">
     			<p><h2><b>About</b></h2></p>
-    			<p>What it is</p>
+    			<p><b>SC</b>anning <b>A</b>nd <b>R</b>econstruction (SCAR) was my final project for Olin's Computational Robotics class.
+				The goal of the project was to use a Roomba-like (a Neato) vacuum robot and its LIDAR to plot the contour of
+				objects it drove around. In this way its goal was similar to a more traditional SLAM algorithm, although this was implemented
+				without explicitly researching SLAM with the intent to build this algorithm off seperate components rather than one large
+				existing algorithim like SLAM.<br><br>
+				
+				In the course of this project we ended up using an Iterative Closest Points (ICP) algorithm as well as implementing
+				a pseudo-raycasting. We also imployed the use of Gazebo simulator to have a stable testing environment.<br><br>
+				
+				
+				A full writeup of the project can be found <a href="../images/SCAR/scarWrite.pdf" target="_blank">here</a></p>
+				The final presentation poster of the project can be found <a href="../images/SCAR/poster.pdf" target="_blank">here</a></p>
   		  </div>
   		</div>
     </div>
@@ -98,7 +109,13 @@ li{
         <div class="w3-container w3-white">
           <p><h2><b>Skills</b></h2></p>
           <ul>
-            <li><b>Skill 1</b> - How it was used</li>
+			<li><b>Python</b> - The project was implemented entirely in python</li>
+            <li><b>ROS</b> - Basis for communications wtih Neato robot and sensor data passing</li>
+			<li><b>Software Design</b> - Creation of software architecture to manage sensor data and perform
+			necessary transformation on data. Needed to be flexible enough to not be a hassle to iterate or pivot on.</li>
+			<li><b>Visualization</b> - Given how much data we were working with and how many transformations it was going through, 
+			as well as the visual nature of the project, it was important to our own understanding, debugging, and communication to
+			others we could visually represent what was going on.</li>
           </ul>
         </div>
       </div>
@@ -110,7 +127,7 @@ li{
         <div class="w3-container w3-white">
           <p><h2><b>Team</b></h2></p>
           <ul>
-            <li><b>Person1</b> - Did X</li>
+            <li><b><a href="https://github.com/yycho0108" target="_blank">Jamie Cho</a></b></li>
           </ul>
         </div>
       </div>
@@ -125,10 +142,9 @@ li{
   <div class="w3-half w3-container w3-margin-bottom">
     <div class="w3-row-padding">
       <div class="w3-container">
-        <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <img src="../images/SCAR/result.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
         <div class="w3-container w3-white">
-        <p><b>Caption</b></p>
-        <p>Caption unbold</p>
+        <p><b>Mapping of Simulation Space</b></p>
         </div>
       </div>
     </div>
@@ -136,10 +152,21 @@ li{
 
      <div class="w3-row-padding">
       <div class="w3-container">
-        <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <img src="../images/SCAR/simulate.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
         <div class="w3-container w3-white">
-        <p><b>Caption</b></p>
-        <p>Caption unbold</p>
+        <p><b>Simulation Environment</b></p>
+        </div>
+      </div>
+    </div>
+	<br>
+	
+	<div class="w3-row-padding">
+      <div class="w3-container">
+        <img src="../images/SCAR/raycast.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+        <p><b>Implementation of "Raycasting"</b></p>
+		<p>Points behind the other points should not be observed the robot and thus are not considered when trying to match
+		current scan to the existing map.</p>
         </div>
       </div>
     </div>
