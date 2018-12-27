@@ -6,7 +6,7 @@ https://www.w3schools.com/w3css/tryw3css_templates_portfolio.htm#-->
 
 <!-- Setup -->
 <html>
-<title>BZ Home</title> <!-- Will have to override this per page -->
+<title>About Me</title> <!-- Will have to override this per page -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,6 +17,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 :root {
   --myblack: #212121;
   --mygry: #cccccc;
+}
+li{
+  margin: 15px 0;
 }
 </style>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
@@ -63,102 +66,87 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:250px">
 
+ <!-- Splash gif-->
+  <!--TODO Make nice screen wide slideshow or gif showing what I do -->
+
   <!-- Header -->
   <header id="portfolio">
-   <!-- <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a> TODO ADD SPlaSH BANNER-->
+    <!--<a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>TODO page banner-->
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
-    <h1><b>My Work</b></h1>
+    <h1><b>About Me</b></h1>
     <div class="w3-section w3-bottombar w3-padding-10"></div>
   </header>
   
-  <!-- Splash gif-->
-  <!--TODO Make nice screen wide slideshow or gif showing what I do -->
+
+  <!--Text half-->
+  <div class="w3-third w3-container w3-margin-bottom">
+
+    <!--Media half-->
   
-  <!-- First row-->
-  <div class="w3-row-padding">
-	<a href="gameController/index.html">
-		<div class="w3-third w3-container w3-margin-bottom">
-		  <img src="images/gameController/grid.jpg" alt="Game Controller" style="width:100%" class="w3-hover-opacity">
-		  <div class="w3-container w3-white">
-			<p><b>4 Axis Joystick</b></p>
-			<p>A four (4) axis joystick that doubles as a mouse. Play classic games like Bomberman and Star Fox 64!</p>
-		  </div>
-		</div>
-	</a>
-	<a href="waterLamp/index.html">
-		<div class="w3-third w3-container w3-margin-bottom">
-		  <img src="images/waterLamp/grid.jpg" alt="Water Lamp" style="width:100%" style="height:10%" class="w3-hover-opacity">
-		  <div class="w3-container w3-white">
-			<p><b>AquaLite Lamps</b></p>
-			<p>3D Printed lamps that can be filled with water and lit up!</p>
-		  </div>
-		</div>
-	</a>
-	<a href="majora/index.html">
-		<div class="w3-third w3-container">
-		  <img src="images/majora/grid.jpg" alt="Majora's Mask" style="width:100%" class="w3-hover-opacity">
-		  <div class="w3-container w3-white">
-			<p><b>Majora's Mask</b></p>
-			<p>Mass fabricated laser cut wall masks from The Legend of Zelda: Majora's Mask!</p>
-		  </div>
-		</div>
-	</a>
-  </div>
-
-   <!-- Second row-->
-	<div class="w3-row-padding">
-	<a href="index.html">
-		<div class="w3-third w3-container">
-		  <img src="images/grid.jpg" alt="Website" style="width:100%" class="w3-hover-opacity">
-		  <div class="w3-container w3-white">
-		  <p><b>Website</b></p>
-		  <p>This website! Yay recursive links!</p>
-		  </div>
-		</div>
-  </a>
-  </div>
-
-  <!-- Next pages. Might not ever use, commented for now -->
-  <!--
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    <div class="w3-row-padding">
+      <div class="w3-container">
+        <img src="images/me.jpg" alt="Benjamin Ze" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+       <!--  <p><b>Caption</b></p>
+        <p>Caption unbold</p> -->
+        </div>
+      </div>
     </div>
+
   </div>
-  -->
+    
+    <div class="w3-twothird w3-container w3-margin-bottom">
+
+    <!-- About-->
+    <div class="w3-row-padding">
+     <div class="w3-container w3-margin-bottom">
+        <div class="w3-container w3-white">
+          <p><h2><b>Hi there!</b></h2></p>
+          <p><font face="times, serif"><h3>I am junior (class of 2020) at Olin College of Engineering, working towards a B.S. in Robotics Engineering. My experience ranges from robotics, to mechatronics, to working with data. When I'm not creating, I'm helping others create, managing both the 3D Printing space at Olin College of Engineering and one of the student operators at Babson College's Weissman Foundry. Feel free to take a look around the website to see some of my personal and class projects. For internship related work, please see my resume. If you want to learn more or have some questions, please don't hesitate to reach out!</br></br>
+
+          <a href="mailto:bziemann@olin.edu">Email</a></br>
+          <a href="https://www.linkedin.com/in/benjamin-ziemann-3073b0b1/" target="_blank">LinkedIn</a></br>
+          <a href="https://github.com/zneb97" target="_blank">Git</a></br></br>
+
+
+          Thanks for checking out the site!</h3></font></p>
+        </div>
+      </div>
+    </div>
+    
+
+
+  </div>
+
+  
+
+  
 
   <div class="w3-container w3-padding-large" style="margin-bottom:32px">
     
   </div>
   
   <!-- Footer -->
-  <div class="w3-row-padding">
   <footer class="w3-container w3-padding-10 w3-dark-grey">
     <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
       <div class="w3-third w3-dark-grey">
-		<a style="text-decoration:none;"  href="mailto:bziemann@olin.edu">
-			<p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
-		</a>
+    <a style="text-decoration:none;"  href="mailto:benjamin.ziemann@students.olin.edu">
+      <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+    </a>
       </div>
       <div class="w3-third w3-dark-grey">
-		<a style="text-decoration:none;"  href="https://www.linkedin.com/in/benjamin-ziemann-3073b0b1/">
-			<p><i class="fa fa-linkedin w3-xxlarge w3-text-light-grey"></i></p>
-		</a>
+    <a style="text-decoration:none;"  href="https://www.linkedin.com/in/benjamin-ziemann-3073b0b1/">
+      <p><i class="fa fa-linkedin w3-xxlarge w3-text-light-grey"></i></p>
+    </a>
       </div>
       <div class="w3-third w3-dark-grey">
-		<a style="text-decoration:none;"  href="https://github.com/zneb97">
-			<p><i class="fa fa-github w3-xxlarge w3-text-light-grey"></i></p>
-		</a>
+    <a style="text-decoration:none;"  href="https://github.com/zneb97">
+      <p><i class="fa fa-github w3-xxlarge w3-text-light-grey"></i></p>
+    </a>
       </div>
     </div>
    </footer>
-   </div>
 
  
 

@@ -6,7 +6,7 @@ https://www.w3schools.com/w3css/tryw3css_templates_portfolio.htm#-->
 
 <!-- Setup -->
 <html>
-<title>Majora's Mask</title> <!-- Will have to override this per page -->
+<title>TODO</title> <!-- Will have to override this per page -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -30,37 +30,35 @@ li{
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right  w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <img src="todomyface.jpg" style="width:45%;" class="w3-round"><br><br>
+    <img src="images/me.jpg" style="width:45%;" class="w3-round"><br><br>
     <h4><b>Benjamin Ziemann</b></h4>
     <p class="w3-text-grey">Student Roboticist</p>
   </div>
   <div class="w3-bar-block">
-    <a href="todoabout.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
-    <a href="todoprojects.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
+    <a href="index.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-home fa-fw w3-margin-right"></i>HOME</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT ME</a> 
+    <a href="index.html" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
         <!-- TODO create main projects page and list subproject under this heading. Also make subproject pages -->
-    <a href="todoresume.pdf" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-file fa-fw w3-margin-right"></i>RESUME</a>
-    <a href="todocontact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+    <a href="resume.pdf" target="_blank" class="w3-bar-item w3-button w3-padding"><i class="fa fa-file fa-fw w3-margin-right"></i>RESUME</a>
   </div>
   <div class="w3-padding-16"></div>
   <div class="w3-panel w3-large">
-    <a style="text-decoration:none;"  href="mailto:benjamin.ziemann@students.olin.edu">
+    <a style="text-decoration:none;"  href="mailto:bziemann@olin.edu">
         <i class="fa fa-envelope-square w3-center w3-third w3-hover-opacity fa-2x"style=" color:var(--myblack)"></i>
     </a>
   
-    <a style="text-decoration:none;"  href="https://www.linkedin.com/in/benjamin-ziemann-3073b0b1/">
+    <a style="text-decoration:none;"  href="https://www.linkedin.com/in/benjamin-ziemann-3073b0b1/" target="_blank">
         <i class="fa fa-linkedin-square w3-center w3-third w3-hover-opacity fa-2x"style=" color:var(--myblack)"></i>
     </a>
 
-    <a style="text-decoration:none;"  href="https://github.com/zneb97">
+    <a style="text-decoration:none;"  href="https://github.com/zneb97" target="_blank">
         <i class="fa fa-github-square w3-center w3-third w3-hover-opacity fa-2x"style=" color:var(--myblack)"></i>
     </a>
     <div class="placeholder-100pct">&nbsp;</div>
-    <div class="w3-center"><i class="fa fa-cog fa-spin fa-2x" style=" color:var(--myblack)"></i></div>
-
-    
-     
+    <div class="w3-center"><i class="fa fa-cog fa-spin fa-2x" style=" color:var(--myblack)"></i></div> 
   </div>
 </nav>
+<!-- END SIDEBAR-->
 
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
@@ -68,29 +66,30 @@ li{
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:250px">
 
+ <!-- Splash gif-->
+  <!--TODO Make nice screen wide slideshow or gif showing what I do -->
+
   <!-- Header -->
   <header id="portfolio">
-    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <!--<a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>TODO page banner-->
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
-    <h1><b>Majora's Mask</b></h1>
+    <h1><b>TODOPage name</b></h1>
     <div class="w3-section w3-bottombar w3-padding-10"></div>
   </header>
-  
-  <!-- Splash gif-->
-  <!--TODO Make nice screen wide slideshow or gif showing what I do -->
   
 
   <!--Text half-->
   <div class="w3-half w3-container w3-margin-bottom">
+    
     <!-- About-->
     <div class="w3-row-padding">
-  	 <div class="w3-container w3-margin-bottom">
-  		  <div class="w3-container w3-white">
-    			<p><h2><b>About</b></h2></p>
-    			<p>A four (4) axis joystick that doubles as a mouse. Play classic games like Bomberman and Star Fox 64!</p>
-  		  </div>
-  		</div>
+     <div class="w3-container w3-margin-bottom">
+        <div class="w3-container w3-white">
+          <p><h2><b>About</b></h2></p>
+          <p>What it is</p>
+        </div>
+      </div>
     </div>
      
     <!--Skills-->
@@ -99,19 +98,33 @@ li{
         <div class="w3-container w3-white">
           <p><h2><b>Skills</b></h2></p>
           <ul>
-            <li><b>Laser Cutting</b> - All parts are laser cut</li>
-            <li><b>Adobe Photoshop/Illustrator</b> - Internet image was decomposed into layers in Photoshop and then cleaned up and vectorized in Illustrator</li>
-            <li><b>CAD - Solidworks</b> - Illustrator layers were turned into 3D part files and assembled to ensure thickness of the mask would be okay and for better visual representation</li>
+            <li><b>Skill 1</b> - How it was used</li>
           </ul>
         </div>
       </div>
     </div>
+
+   <!--Team-->
+    <div class="w3-row-padding">
+      <div class="w3-container w3-margin-bottom">
+        <div class="w3-container w3-white">
+          <p><h2><b>Team</b></h2></p>
+          <ul>
+            <li><b>Person1</b> - Did X</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 
+  
+
   <!--Media half-->
- <!--  <div class="w3-half w3-container w3-margin-bottom">
+  <div class="w3-half w3-container w3-margin-bottom">
     <div class="w3-row-padding">
-      <div class="w3-third w3-container">
+      <div class="w3-container">
         <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
         <div class="w3-container w3-white">
         <p><b>Caption</b></p>
@@ -120,37 +133,17 @@ li{
       </div>
     </div>
 
-
-
-
-  </div> -->
-
-
-  <!--Team-->
-  <!-- <div class="w3-row-padding">
-    <div class="w3-half w3-container w3-margin-bottom">
-      <div class="w3-container w3-white">
-        <p><h2><b>Team</b></h2></p>
-        <ul>
-          <li><b>Person1</b> - Did X</li>
-        </ul>
+     <div class="w3-row-padding">
+      <div class="w3-container">
+        <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+        <p><b>Caption</b></p>
+        <p>Caption unbold</p>
+        </div>
       </div>
-  </div> -->
-
-
-  <!-- Next pages. Might not ever use, commented for now -->
-  <!--
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
     </div>
+
   </div>
-  -->
 
   <div class="w3-container w3-padding-large" style="margin-bottom:32px">
     
@@ -160,19 +153,19 @@ li{
   <footer class="w3-container w3-padding-10 w3-dark-grey">
     <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
       <div class="w3-third w3-dark-grey">
-		<a style="text-decoration:none;"  href="mailto:benjamin.ziemann@students.olin.edu">
-			<p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
-		</a>
+    <a style="text-decoration:none;"  href="mailto:benjamin.ziemann@students.olin.edu">
+      <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+    </a>
       </div>
       <div class="w3-third w3-dark-grey">
-		<a style="text-decoration:none;"  href="https://www.linkedin.com/in/benjamin-ziemann-3073b0b1/">
-			<p><i class="fa fa-linkedin w3-xxlarge w3-text-light-grey"></i></p>
-		</a>
+    <a style="text-decoration:none;"  href="https://www.linkedin.com/in/benjamin-ziemann-3073b0b1/">
+      <p><i class="fa fa-linkedin w3-xxlarge w3-text-light-grey"></i></p>
+    </a>
       </div>
       <div class="w3-third w3-dark-grey">
-		<a style="text-decoration:none;"  href="https://github.com/zneb97">
-			<p><i class="fa fa-github w3-xxlarge w3-text-light-grey"></i></p>
-		</a>
+    <a style="text-decoration:none;"  href="https://github.com/zneb97">
+      <p><i class="fa fa-github w3-xxlarge w3-text-light-grey"></i></p>
+    </a>
       </div>
     </div>
    </footer>
