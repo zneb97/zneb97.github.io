@@ -6,7 +6,7 @@ https://www.w3schools.com/w3css/tryw3css_templates_portfolio.htm#-->
 
 <!-- Setup -->
 <html>
-<title>TODO</title> <!-- Will have to override this per page -->
+<title>3D Printing Space</title> <!-- Will have to override this per page -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -30,14 +30,14 @@ li{
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right  w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <img src="images/me.jpg" style="width:45%;" class="w3-round"><br><br>
+    <img src="../images/me.jpg" style="width:45%;" class="w3-round"><br><br>
     <h4><b>Benjamin Ziemann</b></h4>
     <p class="w3-text-grey">Student Roboticist</p>
   </div>
   <div class="w3-bar-block">
-    <a href="index.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-home fa-fw w3-margin-right"></i>HOME</a>
-    <a href="about.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT ME</a> 
-    <a href="index.html" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
+    <a href="../index.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-home fa-fw w3-margin-right"></i>HOME</a>
+    <a href="../about.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT ME</a> 
+    <a href="../index.html" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
         <!-- TODO create main projects page and list subproject under this heading. Also make subproject pages -->
     <a href="resume.pdf" target="_blank" class="w3-bar-item w3-button w3-padding"><i class="fa fa-file fa-fw w3-margin-right"></i>RESUME</a>
   </div>
@@ -74,7 +74,7 @@ li{
     <!--<a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>TODO page banner-->
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
-    <h1><b>TODOPage name</b></h1>
+    <h1><b>3D Printing Space</b></h1>
     <div class="w3-section w3-bottombar w3-padding-10"></div>
   </header>
   
@@ -84,12 +84,29 @@ li{
     
     <!-- About-->
     <div class="w3-row-padding">
-     <div class="w3-container w3-margin-bottom">
-        <div class="w3-container w3-white">
-          <p><h2><b>About</b></h2></p>
-          <p>What it is</p>
-        </div>
-      </div>
+  	 <div class="w3-container w3-margin-bottom">
+  		  <div class="w3-container w3-white">
+    			<p><h2><b>About</b></h2></p>
+    			<p>The 3D Printing Space at Olin College of Engineering is host to 10 printers: 5 Prusa i3 Mk2s (one of which is a multimaterial unit),
+				2 Pursa i3 Mk3s, a mUVe 1 SLA printer and 2 Autodesk Ember SLA printers. As manager of the space it is my job to maintain the printers
+				and the space to ensure usability and safety. This means fixing any broken printers, training both students
+				and staff of the college on how to use the printers, help fellow students with projects involving CAD and 3D printing,
+				as well as implementing improvements to the space to help with these.<br>
+				
+				Over the past three years of upkeeping the space, more than 65% of the student population has been trained to use the printers.
+				In addition to training the community, part of my responsibilities also include reaching out through various events. Each Halloween
+				a 3D scanning event is held for those who want to later print themselves in costume. Through the use Slack, problems that arise
+				can be quickly brought to attention and resolved, as well as providing a quick and easy way to answer any questions about printing
+				when I am not directly in the space.<br>
+				
+				In winter of 2017 Replay 3D, a Boston based PLA recycling startup, became a partner of the space, helping align with Olin's and my personal goal of being
+				more eco-concious. <br>
+				
+				In fall of 2018 the space expanded as part of the college's machine shop to include SLA resin printers. Due to the potentially hazardous
+				nature of the resin, additional safety and training was implemented.
+				</p>
+  		  </div>
+  		</div>
     </div>
      
     <!--Skills-->
@@ -98,8 +115,11 @@ li{
         <div class="w3-container w3-white">
           <p><h2><b>Skills</b></h2></p>
           <ul>
-            <li><b>Skill 1</b> - How it was used</li>
-          </ul>
+            <li><b>3D Printing</b> - Knowledge of and how to effectively apply it to improve the space. Maintain and repair FDM and SLA printers throughout the school year. Help other students with their projects.</li>
+			<li><b>Solidworks</b> - Design parts for improvement of the space. Help other students with their projects and how to optimize for 3D printing.</li>
+			<li><b>Community Outreach</b> - Interact with over 65% of the Olin Community to create a successful and welcoming environment. Done through Slack and various media including posters,
+			banners, and polls.</li>
+			</ul>
         </div>
       </div>
     </div>
@@ -110,7 +130,7 @@ li{
         <div class="w3-container w3-white">
           <p><h2><b>Team</b></h2></p>
           <ul>
-            <li><b>Person1</b> - Did X</li>
+            <li><b><a href ="https://github.com/AmyPhung">Amy Phung</a></b> - Fellow student manager</li>
           </ul>
         </div>
       </div>
@@ -125,23 +145,24 @@ li{
   <div class="w3-half w3-container w3-margin-bottom">
     <div class="w3-row-padding">
       <div class="w3-container">
-        <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <img src="../images/3dPrinter/3dSpace.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
         <div class="w3-container w3-white">
-        <p><b>Caption</b></p>
-        <p>Caption unbold</p>
+        <p><b>3D Printing Shelf in Olin's Library</b></p>
         </div>
       </div>
     </div>
+	<br>
 
      <div class="w3-row-padding">
       <div class="w3-container">
-        <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <img src="../images/3dPrinter/resinSpace.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
         <div class="w3-container w3-white">
-        <p><b>Caption</b></p>
-        <p>Caption unbold</p>
+        <p><b>Resin Printing Shelf in Olin's Machine Shop</b></p>
+      
         </div>
       </div>
     </div>
+	<br>
 
   </div>
 
@@ -153,19 +174,19 @@ li{
   <footer class="w3-container w3-padding-10 w3-dark-grey">
     <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
       <div class="w3-third w3-dark-grey">
-    <a style="text-decoration:none;"  href="mailto:benjamin.ziemann@students.olin.edu">
-      <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
-    </a>
+		<a style="text-decoration:none;"  href="mailto:bziemann@olin.edu">
+			<p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+		</a>
       </div>
       <div class="w3-third w3-dark-grey">
-    <a style="text-decoration:none;"  href="https://www.linkedin.com/in/benjamin-ziemann-3073b0b1/">
-      <p><i class="fa fa-linkedin w3-xxlarge w3-text-light-grey"></i></p>
-    </a>
+		<a style="text-decoration:none;"  href="https://www.linkedin.com/in/benjamin-ziemann-3073b0b1/" target="_blank">
+			<p><i class="fa fa-linkedin w3-xxlarge w3-text-light-grey"></i></p>
+		</a>
       </div>
       <div class="w3-third w3-dark-grey">
-    <a style="text-decoration:none;"  href="https://github.com/zneb97">
-      <p><i class="fa fa-github w3-xxlarge w3-text-light-grey"></i></p>
-    </a>
+		<a style="text-decoration:none;"  href="https://github.com/zneb97" target="_blank">
+			<p><i class="fa fa-github w3-xxlarge w3-text-light-grey"></i></p>
+		</a>
       </div>
     </div>
    </footer>
