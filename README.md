@@ -3,18 +3,21 @@ My portfolio! </br>
 [See it here!](https://zneb97.github.io)  
 
 ### TODO
-* Main page
-* About
 * Projects
     * Waterlamp
     * 4 Axis Game Controller
-    * Illusion Clock
+    * Majora
     * Tenacity Arm
-    * Bungee Jumping Sim
-    * Laser Cut projects
-* Contact
+    * 3D Print Space
+    * 3D Scanner
+    * Bomberman
+    * FIRST Robotics
+    * SCAR
+    * Recursive Art
+    * Hopper
 * 404 Error
 * Proper domain
+* Floating Hamburger menu
 * The laundry list of things I don't even know exist yet that comes with building a website
 
 ### Thank you!
