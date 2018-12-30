@@ -6,7 +6,7 @@ https://www.w3schools.com/w3css/tryw3css_templates_portfolio.htm#-->
 
 <!-- Setup -->
 <html>
-<title>TODO</title> <!-- Will have to override this per page -->
+<title>AquaLite Lamp</title> <!-- Will have to override this per page -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -20,6 +20,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 }
 li{
   margin: 15px 0;
+}
+img {
+    image-orientation: from-image;
 }
 </style>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
@@ -74,7 +77,7 @@ li{
     <!--<a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>TODO page banner-->
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
-    <h1><b>TODOPage name</b></h1>
+    <h1><b>AquaLite Lamp</b></h1>
     <div class="w3-section w3-bottombar w3-padding-10"></div>
   </header>
   
@@ -87,7 +90,9 @@ li{
   	 <div class="w3-container w3-margin-bottom">
   		  <div class="w3-container w3-white">
     			<p><h2><b>About</b></h2></p>
-    			<p>What it is</p>
+    			<p>AquaLite lamps are a personal project to make a unique lighting solution for decoration.<br><br>
+				Fully 3D printed with water proof wrapping on the inside, these lamps can be filled with water
+				and lit through RGB LEDS in the base. Pressing the button will cycle through various colors and modes.</p>
   		  </div>
   		</div>
     </div>
@@ -98,25 +103,14 @@ li{
         <div class="w3-container w3-white">
           <p><h2><b>Skills</b></h2></p>
           <ul>
-            <li><b>Skill 1</b> - How it was used</li>
+            <li><b>Arduino</b> - Used to control RGB LEDS and cycle modes</li>
+			<li><b>3D Printing</b> - The entire lamp was printed with PLA on a Prusa i3 Mk2</li>
+			<li><b>Solidworks</b> - The base of the lamp was modelled in Solidworks. The Voronoi style 
+			cylinder was from <a href="https://www.thingiverse.com/thing:674317" target="_blank">Thingiverse user Markellov</a>.</li>
           </ul>
         </div>
       </div>
     </div>
-
-   <!--Team-->
-    <div class="w3-row-padding">
-      <div class="w3-container w3-margin-bottom">
-        <div class="w3-container w3-white">
-          <p><h2><b>Team</b></h2></p>
-          <ul>
-            <li><b>Person1</b> - Did X</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-
   </div>
 
   
@@ -125,25 +119,29 @@ li{
   <div class="w3-half w3-container w3-margin-bottom">
     <div class="w3-row-padding">
       <div class="w3-container">
-        <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <img src="../images/waterLamp/grid.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
         <div class="w3-container w3-white">
-        <p><b>Caption</b></p>
-        <p>Caption unbold</p>
+        <p><b>Finished product - Red</b></p>
         </div>
       </div>
     </div>
-	<br>
-
-     <div class="w3-row-padding">
+	 <div class="w3-row-padding">
       <div class="w3-container">
-        <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <img src="../images/waterLamp/green.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
         <div class="w3-container w3-white">
-        <p><b>Caption</b></p>
-        <p>Caption unbold</p>
+        <p><b>Finished product - Green</b></p>
         </div>
       </div>
     </div>
-	<br>
+	 <div class="w3-row-padding">
+      <div class="w3-container">
+        <img src="../images/waterLamp/blue.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+        <p><b>Finished product - Blue</b></p>
+        </div>
+      </div>
+    </div>
+	
 
   </div>
 
