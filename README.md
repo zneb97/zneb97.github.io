@@ -3,11 +3,8 @@ My portfolio! </br>
 [See it here!](https://zneb97.github.io)  
 
 ### TODO
-* Icon for tabs
 * Proper alt text for pictures
 * Projects
-    * Waterlamp
-    * 4 Axis Game Controller
     * FIRST Robotics
     * Recursive Art
     * Hopper
