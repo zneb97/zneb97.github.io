@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<!-- Template is W3 School "Nature Portfolio"
+https://www.w3schools.com/w3css/tryw3css_templates_portfolio.htm#-->
+
+<!--To find what needs to still be done, ctrl-f "todo"-->
+
+<!-- Setup -->
+<html>
+<title>Sunforge Dagger</title> <!-- Will have to override this per page -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+<link rel="shortcut icon" href="../images/icon.png" type="image/x-icon" />
+</head>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+:root {
+  --myblack: #212121;
+  --mygry: #cccccc;
+}
+li{
+  margin: 15px 0;
+}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:250px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right  w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="../images/me.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Benjamin Ziemann</b></h4>
+    <p class="w3-text-grey">Student Roboticist</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="../index.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-home fa-fw w3-margin-right"></i>HOME</a>
+    <a href="../about.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT ME</a> 
+    <a href="../index.html" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
+        <!-- TODO create main projects page and list subproject under this heading. Also make subproject pages -->
+    <a href="../resume.pdf" target="_blank" class="w3-bar-item w3-button w3-padding"><i class="fa fa-file fa-fw w3-margin-right"></i>RESUME</a>
+  </div>
+  <div class="w3-padding-16"></div>
+  <div class="w3-panel w3-large">
+    <a style="text-decoration:none;"  href="mailto:bziemann@olin.edu">
+        <i class="fa fa-envelope-square w3-center w3-third w3-hover-opacity fa-2x"style=" color:var(--myblack)"></i>
+    </a>
+  
+    <a style="text-decoration:none;"  href="https://www.linkedin.com/in/benjamin-ziemann-3073b0b1/" target="_blank">
+        <i class="fa fa-linkedin-square w3-center w3-third w3-hover-opacity fa-2x"style=" color:var(--myblack)"></i>
+    </a>
+
+    <a style="text-decoration:none;"  href="https://github.com/zneb97" target="_blank">
+        <i class="fa fa-github-square w3-center w3-third w3-hover-opacity fa-2x"style=" color:var(--myblack)"></i>
+    </a>
+    <div class="placeholder-100pct">&nbsp;</div>
+    <div class="w3-center"><i class="fa fa-cog fa-spin fa-2x" style=" color:var(--myblack)"></i></div> 
+  </div>
+</nav>
+<!-- END SIDEBAR-->
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+ <!-- Splash gif-->
+  <!--TODO Make nice screen wide slideshow or gif showing what I do -->
+
+  <!-- Header -->
+  <header id="portfolio">
+    <!--<a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>TODO page banner-->
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Sunforge Dagger</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-10"></div>
+  </header>
+  
+
+  <!--Text half-->
+  <div class="w3-half w3-container w3-margin-bottom">
+    
+    <!-- About-->
+    <div class="w3-row-padding">
+  	 <div class="w3-container w3-margin-bottom">
+  		  <div class="w3-container w3-white">
+    			<p><h2><b>About</b></h2></p>
+    			<p>
+				The Sunforge Dagger from Netflix's <i>The Dragon Prince</i> ! Wanting to build something both visually beautifully and difficult in form factor, I took it on as a personal project to create this 1:1 scale of the blade seen in episode 7 of the show.<br>
+				
+				CADed in Solidworks from reference images provided by the official page and screen shots from the show, then 3D printed and painted, the dagger has
+				an Arduino ItsyBitsy 32u4 and RGB LEDs to allow for any pattern of lights! The larget challenge was by far form factor. Fitting a battery into the hilt with a single RGB LED below in the gem, and getting the power to the Arduino proved
+				to be a fun challenge and I'm incredibly proud of the end result. Almost every part is 3D printed, including the blade, which I took some liberities with the runes ;) . If you would like the models, feel free to message me!
+				
+				</p>
+  		  </div>
+  		</div>
+    </div>
+     
+    <!--Skills-->
+    <div class="w3-row-padding">
+      <div class="w3-container w3-margin-bottom">
+        <div class="w3-container w3-white">
+          <p><h2><b>Skills</b></h2></p>
+          <ul>
+			<li><b>Solidworks</b> - The entire sword was modeled in Solidworks before printing and assembling.</li>	
+            <li><b>Arduino</b> - ItsyBitsy 32u4 used to control RGB LEDs.</li>
+			<li><b>3D Printing</b> - Nearly every part is 3D printed on Prusa i3 Mk2s.	</li>
+			 </ul>
+        </div>
+      </div>
+    </div>	
+		<br>
+	
+	<div class="w3-row-padding">
+      <div class="w3-container">
+        <img src="../images/sunforge/guard2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+		<div class="w3-container w3-white">
+        <p><b>Internals</b></p>
+        </div>
+      </div>
+    </div>
+	<br>
+	
+	<div class="w3-row-padding">
+      <div class="w3-container">
+        <img src="../images/sunforge/handle1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+		<div class="w3-container w3-white">
+        <p><b>Hilt assembly</b></p>
+		<p>4 wires run down to the gem to control the RGB LED, 1 runs back up, the battery's ground.
+        </div>
+      </div>
+    </div>
+	<br>
+	
+	<div class="w3-row-padding">
+      <div class="w3-container">
+        <img src="../images/sunforge/battery1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+		<div class="w3-container w3-white">
+        <p><b>Holding the battery in the hilt with a spring</b></p>
+        </div>
+      </div>
+    </div>
+	<br>
+
+
+  </div>
+
+  
+
+  <!--Media half-->
+  <div class="w3-half w3-container w3-margin-bottom">
+    <div class="w3-row-padding">
+      <div class="w3-container">
+        <img src="../images/sunforge/boxdark.gif" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+        <p><b>Sunforged</b></p>
+        </div>
+      </div>
+    </div>
+	<br>
+
+     <div class="w3-row-padding">
+      <div class="w3-container">
+        <img src="../images/sunforge/boxlight.gif" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+         <p><b>In the Light</b></p>
+        
+        </div>
+      </div>
+    </div>
+	<br>
+	
+	
+	<div class="w3-row-padding">
+      <div class="w3-container">
+        <img src="../images/sunforge/cads.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+        <p><b>CAD and Render</b></p>
+        </div>
+      </div>
+    </div>
+	<br>
+	
+	
+	<div class="w3-row-padding">
+      <div class="w3-container">
+        <img src="../images/sunforge/handdark.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+        <p><b>Wielding</b></p>
+        </div>
+      </div>
+    </div>
+	<br>
+	
+	
+	<div class="w3-row-padding">
+      <div class="w3-container">
+        <img src="../images/sunforge/hand.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+        <p><b>Wielding</b></p>
+        </div>
+      </div>
+    </div>
+ </div>
+
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-10 w3-dark-grey">
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+		<a style="text-decoration:none;"  href="mailto:bziemann@olin.edu">
+			<p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+		</a>
+      </div>
+      <div class="w3-third w3-dark-grey">
+		<a style="text-decoration:none;"  href="https://www.linkedin.com/in/benjamin-ziemann-3073b0b1/" target="_blank">
+			<p><i class="fa fa-linkedin w3-xxlarge w3-text-light-grey"></i></p>
+		</a>
+      </div>
+      <div class="w3-third w3-dark-grey">
+		<a style="text-decoration:none;"  href="https://github.com/zneb97" target="_blank">
+			<p><i class="fa fa-github w3-xxlarge w3-text-light-grey"></i></p>
+		</a>
+      </div>
+    </div>
+   </footer>
+
+ 
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
